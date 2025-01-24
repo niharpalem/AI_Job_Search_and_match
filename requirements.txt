@@ -1,0 +1,6 @@
+streamlit
+pandas 
+python-jobspy
+groq
+numpy
+graphviz

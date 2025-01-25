@@ -1,7 +1,7 @@
 
 
 
-# AI-Job-Search  
+# AI-Job-Search and Match
 
 An AI-powered job search assistant that analyzes resumes, matches job listings, and provides intelligent job search insights.  
 

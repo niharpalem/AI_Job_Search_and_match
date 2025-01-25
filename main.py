@@ -43,7 +43,7 @@ def convert_prompt_to_parameters(client, prompt: str) -> Dict[str, str]:
             {"role": "user", "content": f"Extract from: {prompt}"}
         ],
         max_tokens=1024,
-        model='llama3-70b-8192',
+        model='llama3-8b-8192',
         temperature=0.2
     )
     
@@ -77,7 +77,7 @@ def analyze_resume(client, resume: str) -> str:
             {"role": "user", "content": resume}
         ],
         max_tokens=400,
-        model='llama3-70b-8192',
+        model='llama3-8b-8192',
         temperature=0.3
     )
     
